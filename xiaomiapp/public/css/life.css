@@ -1,0 +1,75 @@
+html{
+  font-size: 9.26vw;
+}
+body{
+  background-color: #F3F3F3;
+}
+header{
+  background-color: #F4B834;
+  color: #fff;
+  position: relative;
+  padding-top: 0.3rem;
+}
+h3{
+  font-size: 0.5rem;
+  text-align: center;
+}
+header p{
+  position: absolute;
+  top:0.4rem;
+  right:0.3rem;
+  font-size: 0.35rem;
+}
+header ul{
+  font-size: 0.4rem;
+  white-space: nowrap;
+  padding: 0.2rem 0;
+}
+header ul li{
+  display: inline-block;
+  width:2.9rem;
+  overflow: hidden;
+  text-align: center;
+}
+main{
+  padding:0.3rem;
+  font-size: 0.35rem;
+  background-color: #fff;
+}
+.top img{
+  vertical-align: middle;
+  width: 1.02rem;
+  height: 1.04rem;
+}
+.username{
+  display: inline-block;
+  width: 1.8rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  background-color: #F7A843;
+  position: relative;
+  top: 0;
+  left:6.1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+.order{
+  height: 1rem;
+  line-height: 1rem;
+}
+.pic{
+  width: 100%;
+}
+.num{
+  text-align: right;
+  height: 1rem;
+  line-height: 1rem;
+}
+.type{
+  display: flex;
+  justify-content: space-around;
+}
+.type img{
+  width: 32%;
+}

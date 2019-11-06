@@ -6,10 +6,11 @@
 <script>
 import Footer from '../../components/Footer'
 export default {
-  name : 'shopcart',
+  name : 'count',
   components : {
     Footer
   }
+  
 }
 </script>
 <style>

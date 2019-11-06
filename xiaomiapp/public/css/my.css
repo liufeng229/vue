@@ -1,0 +1,103 @@
+html{
+  font-size: 9.26vw;
+}
+body{
+  background-color: #F3F3F3;
+}
+header{
+  background-color: #E5B958;
+  padding-bottom: 1.5rem;
+}
+.header-part1{
+  text-align: right;
+  padding-right:0.4rem ;
+  box-sizing: border-box;
+}
+.header-part1 img{
+  width: 0.67rem;
+  height: 0.65rem;
+}
+.left{
+  width: 1.76rem;
+  height: 1.76rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+.left img{
+  width: 1.76rem;
+  height: 1.76rem;
+}
+.center{
+  display: inline-block;
+  height: 1.76rem;
+  font-size: 0.33rem;
+  vertical-align: top; 
+  color: #fff;
+}
+.right{
+  font-size: 0.7rem;
+  position: relative;
+  top:-1.1rem;
+  left:7.3rem;
+}
+.mainPart{
+  background-color: #fff;
+  margin:-1.2rem 0.3rem ;
+  padding-top: 0.2rem;
+  position: relative;
+  z-index: 3;
+  border-radius: 0.2rem;
+}
+.mainPart img{
+  width: 0.96rem;
+  height: 1.06rem;
+}
+.same{
+  background-color: #fff;
+  margin:1.5rem 0.3rem 0.2rem;
+  padding-top: 0.2rem;
+  border-radius: 0.2rem;
+}
+.same img{
+  width: 0.72rem;
+  height: 0.73rem;
+}
+.same1{
+  background-color: #fff;
+  margin:0 0.3rem 0.2rem;
+  padding-top: 0.2rem;
+  border-radius: 0.2rem;
+}
+.same1 img{
+  width: 0.87rem;
+  height: 0.82rem;
+}
+.mainPart-top{
+  font-size: 0.4rem;
+  padding-left: 0.4rem;
+  height: 0.5rem;
+}
+.mainPart-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size:0.3rem;
+  margin-top: 0.2rem;
+  
+  box-sizing: border-box;
+  border:0.02rem solid #eee;
+}
+.mainPart-bottom div{
+  padding: 0.4rem 0;
+}
+.mainPart-bottom div{
+  width: 24%;
+  text-align: center;
+}
+.pic{
+  width: 10.19rem;
+  height: 2.11rem;
+  margin-left: 0.4rem;
+}
