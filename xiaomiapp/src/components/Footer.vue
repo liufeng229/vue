@@ -26,8 +26,10 @@
   background-color: #FAFAFA;
   color: #D7D0BD;
   font-size: 0.33rem;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+      left: 0;
+    z-index: 4;
   }
 
   footer ul li{

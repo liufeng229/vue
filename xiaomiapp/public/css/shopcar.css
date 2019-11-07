@@ -1,164 +1,102 @@
 html{
-  font-size: 13.34vw;
-  background-color: #F0F0F0;
+  font-size: 9.26vw;
 }
 body{
-  background-color: #F4F4F4;
+  background-color: #F3F3F3;
 }
-header p{
-  background-color: #E2BA5B;
-  font-size: 0.35rem;
-  height: 0.8rem;
-  line-height: 0.8rem;
-  padding-left: 0.5rem;
+header{
+  width: 100%;
+  height: 4.1rem;
+  background-color: #E9C46C;
+  color: #fff;
+  position: relative;
+  font-size: 0.45rem;
+  padding-top: 0.4rem;
+  
+}
+header h1{
   text-align: center;
+  font-size: 0.75rem; 
 }
-main{
-  font-size: 0.35rem;
+.back{
+  position: absolute;
+  top:0.4rem;
+  left:0.3rem;
+}
+.edite{
+  position: absolute;
+  top:0.4rem;
+  right:0.3rem;
+}
+.goods{
+  
+  width: 10.1rem;
+  margin: 0 auto;
+  font-size: 0.4rem;
+  position: relative;
+  top: -2rem;
+  z-index: 2;
+
+}
+.goods ul li{
+  height: 4.8rem;
+  border: 1px solid #fff;
   background-color: #fff;
+  overflow: hidden;
+  border-radius: 0.45rem;
+  margin-bottom: 0.2rem;
 }
-.type{
+.goodstype{
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.sty{
+  padding-left:0.2rem ;
   position: relative;
-  height: 2.9rem;
-  border-top:0.01rem solid #DDDDDD;
+  
 }
-.check{
-  width: 0.3rem;
-  height: 0.3rem;
+.pic{
+  width: 2.6rem;
+  height: 2.59rem;
+}
+.goodstype-fee{
   position: absolute;
-  left:0.6rem;
-  top:1.1rem;
+  right: 0.3rem;
+  top: 0; 
 }
-.left{
-  padding-left:1.1rem;
-  float:left;   
-}
-.left img{
-  width: 1.2rem;
-  height: 1.2rem;
-  position: relative;
-  left:0rem;
-  top:0.5rem;
-}
-.right{
-  float: left;
-  width: 4.3rem;
-  margin-left: 0.1rem;
-  margin-top: 0.1rem;
-  font-size: 0.29rem;
-  font-weight: 500;
-  box-sizing: border-box;
-}
-.del{
+.rightSide{
   position: absolute;
-  right:0.3rem;
-  top:0.15rem;
+  right:1.1rem;
+  top:1.55rem;
 }
-.del img{
-  width: 0.3rem;
-  height: 0.3rem;
-}
-.gift{
-  width: 1.1rem;
-  height: 0.5rem;
-  text-align: center;
-  line-height: 0.5rem;
-  color: #5ACCA4;
-  border: 0.01rem solid #5ACCA4;
-  border-radius: 0.3rem;
-  margin-top:0.1rem ;
-  margin-bottom:0.1rem ;
-  box-sizing: border-box;
-}
-.price{
-  color: #FF6353;
-}
-.price::before{
-  content: "￥";
-}
-del{
-  color: #CFCFCF;
-}
-.small{
-  position: absolute;
-  right:0.3rem;
-  top:1.49rem;
-  border: 0.03rem solid #eee;
-  border-radius: 0.1rem;
-}
-.small span{
-  display: inline-block;
-}
-.btn1{
-  width: 0.3rem;
-  text-align: center;
-  line-height: 0.3rem;
-  border-right:0.03rem solid #eee ;
+.rightSide p{
+  padding: 0.1rem;
 }
 .num{
+  position: absolute;
+  right:0;
+  top:1.5rem;
+}
+.price{
+  color: red;
+}
+.btn{
   width: 0.5rem;
-  text-align: center;
-  line-height: 0.3rem;
+  height: 0.5rem;
+}
+.btn1{
+  position: relative;
+  top: -1rem;
 }
 .btn2{
-  width: 0.3rem;
-  text-align: center;
-  line-height: 0.3rem;
-  border-left:0.03rem solid #eee ;
-}
-
-.bottom{
-  position: absolute;
-  left:0.3rem;
-  bottom:0rem;
-  height: 0.8rem;
-  width: 100%;
-  line-height: 0.8rem;
-  border-top:0.03rem solid #eee ;
-  margin-left: 0.7rem;
-}
-.first{
-  color: #979797;
-}
-.two{
-  color: #D5D5D5;
-}
-.all{
   position: relative;
-  height: 1.2rem;
-  background-color: #fff;
-  margin-top: 0.3rem;
-  box-sizing: border-box;
-  border: 0.01rem solid #eee;
+  top: 0.1rem;
 }
-.checkAll{
-  width: 0.3rem;
-  height: 0.3rem;
-  position: absolute;
-  left:0.6rem;
-  top:0.4rem;
-}
-.box1{
-  position: absolute;
-  left:1.8rem;
-  top:0.4rem;
-}
-.box2{
-  width: 2.2rem;
-  height: 1.2rem;
+.number{
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height:0.5rem;
   text-align: center;
-  background-color: #FF6353;
-  line-height: 1.2rem;
-  position: absolute;
-  left:5.3rem;
-  top:0rem;
-}
-.finally{
-  width: 100%;
-}
-.finally img{
-  width: 100%;
-}
-.singlePrice{
-  display: none;
+  background-color: #eee;
 }
