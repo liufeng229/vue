@@ -1,35 +1,18 @@
 <template>
     <section class="main2">
-        <div class="main2One">
-            <h4>秋冬换季专场</h4>
-            <p>最高直降150</p>
-            <a href="#">立即查看</a>
-            <img src="img/shopping1.jpg">
-        </div>
-        <div class="main2Two">
-            <h4>智米品牌馆</h4>
-            <p>最高立省1500</p>
-            <a href="#">立即查看</a>
-            <img src="img/shopping2.jpg">
-        </div>
-        <div class="main2Three">
-            <h4>映趣品牌馆</h4>
-            <p>最低25元起</p>
-            <a href="#">立即查看</a>
-            <img src="img/shopping3.jpg">
-        </div>
-        <div class="main2Four">
-            <h4>七面2周年</h4>
-            <p>爆品限时1元购</p>
-            <a href="#">立即查看</a>
-            <img src="img/shopping4.jpg">
+        <div class="main2One" :key="index" v-for="(f,index) in data.main2Data">
+            <h4>{{f.mainTitle}}</h4>
+            <p>{{f.title}}</p>
+            <a href="#">{{f.moreInfo}}</a>
+            <img :src="f.pic">
         </div>
     </section>
 </template>
 
 <script>
     export default {
-        name: "main-part-three"
+        name: "main-part-three",
+        props: ['data'],
     }
 </script>
 
@@ -76,26 +59,22 @@
         border-radius: 0.25rem;
         color: #fff;
     }
-    .main2One ,.main2Four{
+    .main2 div:nth-child(1) ,.main2 div:nth-child(4){
         background-color: #FCDEE0;
         color: #E25D5E;
     }
-    .main2One a,.main2Four a{
-
-        background-color: #E05D62;
-    }
-    .main2Two{
+    .main2 div:nth-child(2){
         background-color: #CCDDEF;
         color:#5D70AA;
     }
-    .main2Two>a{
+    .main2 div:nth-child(2)>a{
         background-color:#91A2D0 ;
     }
-    .main2Three{
+   .main2 div:nth-child(3){
         background-color: #F5EBD0;
         color: #C1A96B;
     }
-    .main2Three>a{
+    .main2 div:nth-child(3)>a{
         background-color:#BB8F2E ;
     }
 </style>

@@ -1,24 +1,20 @@
 <template>
     <footer>
       <ul>
-        <li><img src="img/bottom1.jpg">
-          <a href="/mainpage">首页</a></li>
-        <li><img src="img/bottom2.jpg">
-          <a href="/type">分类</a></li>
-        <li> <img src="img/bottom3.jpg">
-          <a href="/talk">品味</a></li>
-        <li><img src="img/bottom4.jpg">
-          <a href="/shopcart">购物车</a></li>
-        <li><img src="img/bottom5.jpg">
-          <a href="/count">我的</a></li>
+        <li :key="index" v-for="(f,index) in data.footer">
+          <img :src="f.pic">
+          <a :href="f.address">{{f.title}}</a>
+        </li>
       </ul>
     </footer>
 </template>
 <script>
+console.log()
     export default {
-      name : 'Footer'
+      name : 'Footer',
+      props: ['data']  
     }
-
+ 
 </script>
 <style scoped>
   footer{

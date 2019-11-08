@@ -14,8 +14,10 @@
 </template>
 
 <script>
+
     export default {
         name: "index-top"
+
     }
 </script>
 
