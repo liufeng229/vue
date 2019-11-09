@@ -1,96 +1,31 @@
 <template>
     <main>
         <section class="mainPart">
-            <div class="mainPart-top">我的订单</div>
+            <div class="mainPart-top">{{data.partone.title}}</div>
             <div class="mainPart-bottom">
-                <div>
-                    <img src="img/order1.jpg">
-                    <p>待付款</p>
-                </div>
-                <div>
-                    <img src="img/order2.jpg">
-                    <p>待收货</p>
-                </div>
-                <div>
-                    <img src="img/order3.jpg">
-                    <p>待评价</p>
-                </div>
-                <div>
-                    <img src="img/order4.jpg">
-                    <p>退货/售后</p>
+                <div :key="index" v-for="(f,index) in data.partone.bottom">
+                    <img :src="f.pic">
+                    <p>{{f.title}}</p>
                 </div>
             </div>
         </section>
         <section class="same">
-            <div class="mainPart-top">我的订单</div>
+            <div class="mainPart-top">{{data.parttwo.title}}</div>
             <div class="mainPart-bottom">
-                <div>
-                    <img src="img/func1.jpg">
-                    <p>0张优惠券</p>
-                </div>
-                <div>
-                    <img src="img/func2.jpg">
-                    <p>我的收藏</p>
-                </div>
-                <div>
-                    <img src="img/func3.jpg">
-                    <p>浏览记录</p>
-                </div>
-                <div>
-                    <img src="img/func4.jpg">
-                    <p>地址管理</p>
+                <div :key="index" v-for="(f,index) in data.parttwo.bottom">
+                    <img :src="f.pic">
+                    <p>{{f.title}}</p>
                 </div>
             </div>
         </section>
-        <img src="img/help.jpg" class="pic">
+        <img :src="data.pic" class="pic">
         <section class="same1">
-            <div class="mainPart-top">更多工具</div>
+            <div class="mainPart-top">{{data.partthree.title}}</div>
             <div class="mainPart-bottom">
-                <div>
-                    <img src="img/tool1.jpg">
-                    <p>我的资产</p>
+                <div :key="index" v-for="(f,index) in data.partthree.bottom">
+                    <img :src="f.pic" v-if="f.pic">
+                    <p>{{f.title}}</p>
                 </div>
-                <div>
-                    <img src="img/tool2.jpg">
-                    <p>小米钱包</p>
-                </div>
-                <div>
-                    <img src="img/tool3.jpg">
-                    <p>拼团</p>
-                </div>
-                <div>
-                    <img src="img/tool4.jpg">
-                    <p>我要定制</p>
-                </div>
-                <div>
-                    <img src="img/tool5.jpg">
-                    <p>官方客服</p>
-                </div>
-                <div>
-                    <img src="img/tool6.jpg">
-                    <p>用户反馈</p>
-                </div>
-                <div>
-                    <img src="img/tool7.jpg">
-                    <p>自制执照</p>
-                </div>
-                <div>
-                    <img src="img/tool8.jpg">
-                    <p>协议规则</p>
-                </div>
-                <div>
-                    <img src="img/tool9.jpg">
-                    <p>线下门店</p>
-                </div>
-                <div>
-                    <img src="img/tool10.jpg">
-                    <p>玩家俱乐部</p>
-                </div>
-                <div>
-                    <img src="img/tool11.jpg">
-                    <p>小米零钱卡</p>
-                </div>
-                <div></div>
             </div>
         </section>
     </main>
@@ -98,7 +33,8 @@
 
 <script>
     export default {
-        name: "mains"
+        name: "reused",
+        props:['data']
     }
 </script>
 

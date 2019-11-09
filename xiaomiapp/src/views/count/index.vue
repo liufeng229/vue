@@ -1,12 +1,13 @@
 <template>
   <div>
       <top></top>
-      <mains></mains>
-    <Footer :data='indexInfo'></Footer>
+      <mains :data='count' v-if="count"></mains>
+    <Footer :data='indexInfo' v-if="indexInfo"></Footer>
   </div>
 </template>
 <script>
   import indexApi from "../../api/indexApi"
+  import count from "../../api/count"
 import Footer from '../../components/Footer'
 import top from '../../components/count/top'
 import mains from '../../components/count/vmain'
@@ -19,7 +20,8 @@ export default {
   },
     data (){
         return {
-            indexInfo : []
+            indexInfo : [],
+            count :[]
         }
     },
     methods: {
@@ -29,9 +31,16 @@ export default {
                 console.log(data)
             })
         },
+        _count() {
+            count.getData(data => {
+                this.count = data;
+                console.log(data)
+            })
+        }
     },
     created() {
         this._initIndexInfo();
+        this._count();
     }
   
 }

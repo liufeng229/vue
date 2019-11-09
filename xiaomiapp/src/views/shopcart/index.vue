@@ -1,12 +1,13 @@
 <template>
   <div>
       <top></top>
-      <goods></goods>
+      <goods :data='shopcart'></goods>
   <Footer :data='indexInfo'></Footer>
   </div>
 </template>
 <script>
  import indexApi from "../../api/indexApi"
+ import shopcart from "../../api/shopcart"
 import Footer from '../../components/Footer'
 import top from '../../components/shopcart/top'
 import goods from '../../components/shopcart/goods'
@@ -19,7 +20,8 @@ export default {
   },
     data (){
         return {
-            indexInfo : []
+            indexInfo : [],
+            shopcart :[]
         }
     },
     methods: {
@@ -29,9 +31,16 @@ export default {
                 console.log(data)
             })
         },
+        _shopcart() {
+            shopcart.getData(data => {
+                this.shopcart = data;
+                console.log(data)
+            })
+        }
     },
     created() {
         this._initIndexInfo();
+        this._shopcart();
     }
 
 }

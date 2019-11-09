@@ -1,5 +1,4 @@
 <template>
-    <main>
         <div class="goods">
             <ul>
                 <li>
@@ -96,7 +95,6 @@
                 </li>
             </ul>
         </div>
-    </main>
 </template>
 
 <script>

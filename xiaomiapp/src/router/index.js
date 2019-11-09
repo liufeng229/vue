@@ -6,7 +6,7 @@ import talk from '../views/talk/index.vue'
 import type from '../views/type/index.vue'
 import main from "../views/main"
 import index from "../views/index/index.vue"
-// import footer from "../components/Footer"
+
 
 Vue.use(VueRouter)
 
