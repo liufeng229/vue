@@ -1,31 +1,31 @@
 <template>
     <section class="rightSide">
-        <img src="img/wash.jpg" class="wash"><br>
+        <img src="../../../public/img/wash.jpg" class="wash"><br>
         <div class="kind">
             <span class="top1">为您推荐</span>
             <div class="firstKind">
                 <div>
-                    <img src="img/kind1.jpg"><br>
+                    <img src="../../../public/img/kind1.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind2.jpg"><br>
+                    <img src="../../../public/img/kind2.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind3.jpg"><br>
+                    <img src="../../../public/img/kind3.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind4.jpg"><br>
+                    <img src="../../../public/img/kind4.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind5.jpg"><br>
+                    <img src="../../../public/img/kind5.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind6.jpg"><br>
+                    <img src="../../../public/img/kind6.jpg"><br>
                     <span>空调</span>
                 </div>
             </div>
@@ -34,27 +34,27 @@
             <span class="top2">精选专区</span>
             <div class="twoKind">
                 <div>
-                    <img src="img/kind7.jpg"><br>
+                    <img src="../../../public/img/kind7.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind8.jpg"><br>
+                    <img src="../../../public/img/kind8.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind9.jpg"><br>
+                    <img src="../../../public/img/kind9.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind10.jpg"><br>
+                    <img src="../../../public/img/kind10.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind11.jpg"><br>
+                    <img src="../../../public/img/kind11.jpg"><br>
                     <span>空调</span>
                 </div>
                 <div>
-                    <img src="img/kind12.jpg"><br>
+                    <img src="../../../public/img/kind12.jpg"><br>
                     <span>空调</span>
                 </div>
             </div>

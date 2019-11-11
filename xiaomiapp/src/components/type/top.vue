@@ -1,7 +1,7 @@
 <template>
     <div class="box">
         <div class="top">
-            <img src="img/only.jpg">
+            <img src="../../../public/img/only.jpg">
             <input type="text">
         </div>
     </div>

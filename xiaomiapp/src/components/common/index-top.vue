@@ -3,13 +3,13 @@
         <section class="top">
             <span class="top-first">有品</span>&nbsp;
             <div class="top-two">
-                <img src="img/top1.jpg">
+                <img src="../../../public/img/top1.jpg">
                 <input type="text">
-                <img src="img/top2.jpg">
+                <img src="../../../public/img/top2.jpg">
             </div>
-            &nbsp;&nbsp;<img src="img/top3.jpg" class="top-three">
+            &nbsp;&nbsp;<img src="../../../public/img/top3.jpg" class="top-three">
         </section>
-        <img src="img/main.jpg" class="main-img">
+        <img src="../../../public/img/main.jpg" class="main-img">
     </div>
 </template>
 

@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const klgIndex  = require("../api/klgIndex");
 const count  = require("../api/count");
-const count  = require("../api/shopcart");
+const shopcart  = require("../api/shopcart");
 router.all("*",(req,res,next)=>{
   res.header("Access-Control-Allow-Origin", "*");
   res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');

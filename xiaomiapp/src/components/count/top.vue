@@ -1,12 +1,12 @@
 <template>
     <header>
         <div class="header-part1">
-            <img src="img/set.jpg">&nbsp;&nbsp;&nbsp;
-            <img src="img/inform.jpg">
+            <img src="../../../public/img/set.jpg">&nbsp;&nbsp;&nbsp;
+            <img src="../../../public/img/inform.jpg">
         </div>
         <div class="header-part2">
             <div class="left">
-                <img src="img/login.jpg">
+                <img src="../../../public/img/login.jpg">
             </div>
             <div class="center">
                 <h2>浅味</h2>

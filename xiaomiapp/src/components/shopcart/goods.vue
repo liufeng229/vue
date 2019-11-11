@@ -1,7 +1,7 @@
 <template>
         <div class="goods">
             <ul>
-                <li>
+                <li @click="show">
                     <div class="sty">
                         <div class="goodstype">
                             <input type="checkbox" class="btn btn2">&nbsp;
@@ -10,7 +10,7 @@
                         </div>
                         <div>
                             <input type="checkbox" class="btn btn1">&nbsp;
-                            <img src="img/watch.jpg" class="pic">
+                            <img src="../../../public/img/watch.jpg" class="pic">
                             <div class="rightSide">
                                 <p>AMAZFIT 米动手表青春版</p>
                                 <p>Lite&nbsp;耀石黑&nbsp;标配</p>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li @click="show">
                     <div class="sty">
                         <div class="goodstype">
                             <input type="checkbox" class="btn btn2">&nbsp;
@@ -33,7 +33,7 @@
                         </div>
                         <div>
                             <input type="checkbox" class="btn btn1">&nbsp;
-                            <img src="img/watch.jpg" class="pic">
+                            <img src="../../../public/img/watch.jpg" class="pic">
                             <div class="rightSide">
                                 <p>AMAZFIT 米动手表青春版</p>
                                 <p>Lite&nbsp;耀石黑&nbsp;标配</p>
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li @click="show">
                     <div class="sty">
                         <div class="goodstype">
                             <input type="checkbox" class="btn btn2">&nbsp;
@@ -56,7 +56,7 @@
                         </div>
                         <div>
                             <input type="checkbox" class="btn btn1">&nbsp;
-                            <img src="img/watch.jpg" class="pic">
+                            <img src="../../../public/img/watch.jpg" class="pic">
                             <div class="rightSide">
                                 <p>AMAZFIT 米动手表青春版</p>
                                 <p>Lite&nbsp;耀石黑&nbsp;标配</p>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li @click="show">
                     <div class="sty">
                         <div class="goodstype">
                             <input type="checkbox" class="btn btn2">&nbsp;
@@ -79,7 +79,7 @@
                         </div>
                         <div>
                             <input type="checkbox" class="btn btn1">&nbsp;
-                            <img src="img/watch.jpg" class="pic">
+                            <img src="../../../public/img/watch.jpg" class="pic">
                             <div class="rightSide">
                                 <p>AMAZFIT 米动手表青春版</p>
                                 <p>Lite&nbsp;耀石黑&nbsp;标配</p>
@@ -99,7 +99,12 @@
 
 <script>
     export default {
-        name: "goods"
+        name: "goods",
+        methods:{
+            show(){
+                location.href="./goods"
+            }
+        }
     }
 </script>
 

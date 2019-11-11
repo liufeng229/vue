@@ -2,27 +2,27 @@
     <main>
         <div>
             <div class="top">
-                <img src="img/file.jpg">
+                <img src="../../../public/img/file.jpg">
                 <span class="name">-乌咪-</span>
                 <span class="username">+&nbsp;关注</span>
                 <p class="order">欧美特真无线&nbsp;双麦降噪&nbsp;反向充电超长续航</p>
             </div>
             <div>
-                <img src="img/artical.jpg" class="pic">
+                <img src="../../../public/img/artical.jpg" class="pic">
             </div>
             <p class="num">340&nbsp;阅读</p>
         </div>
         <div class="bottom">
             <div class="top">
-                <img src="img/file1.jpg">
+                <img src="../../../public/img/file1.jpg">
                 <span class="name">火火</span>
                 <span class="username">+&nbsp;关注</span>
                 <p class="order">中秋的气氛越来越浓,手痒痒就做了一些糕点。</p>
             </div>
             <div class="type">
-                <img src="img/artical-pic1.jpg">
-                <img src="img/artical-pic2.jpg">
-                <img src="img/artical-pic3.jpg">
+                <img src="../../../public/img/artical-pic1.jpg">
+                <img src="../../../public/img/artical-pic2.jpg">
+                <img src="../../../public/img/artical-pic3.jpg">
             </div>
             <p class="num">4115&nbsp;阅读</p>
         </div>
